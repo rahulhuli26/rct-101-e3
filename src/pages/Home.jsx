@@ -1,7 +1,9 @@
 import React from "react";
+import Products from "../components/Products/Products"
 
 const Home = () => {
-  return <div>{/* Code here */}</div>;
+  return <div>
+    <Products/>{/* Code here */}</div>;
 };
 
 export default Home;
